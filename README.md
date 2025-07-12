@@ -1,80 +1,86 @@
-# Avinash Reddy M
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avinash Reddy M</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #00ffcc;
+            text-align: center;
+        }
+        h2 {
+            color: #ffcc00;
+            border-bottom: 1px solid #444;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        a {
+            color: #00ccff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .contact-item {
+            color: #00ffcc;
+        }
+        .percentage {
+            color: #00ff99;
+        }
+    </style>
+</head>
+<body>
+    <h1>Avinash Reddy M</h1>
 
-**Contact Information**  
-📧 **Email**: [mailnavinashreddy7t@gmail.com](mailto:mailnavinashreddy7t@gmail.com)  
-🌐 **LeetCode**: [AvinashM25](https://leetcode.com/AvinashM25)  
-🔗 **LinkedIn**: [avinash](https://linkedin.com/in/avinash)  
-💻 **GitHub**: [Avinash00725](https://github.com/Avinash00725)
+    <h2>Contact Information</h2>
+    <ul>
+        <li class="contact-item">📧 Email: <a href="mailto:mailnavinashreddy7t@gmail.com">mailnavinashreddy7t@gmail.com</a></li>
+        <li class="contact-item">🌐 LeetCode: <a href="https://leetcode.com/AvinashM25">AvinashM25</a></li>
+        <li class="contact-item">🔗 LinkedIn: <a href="https://linkedin.com/in/avinash">avinash</a></li>
+        <li class="contact-item">💻 GitHub: <a href="https://github.com/Avinash00725">Avinash00725</a></li>
+    </ul>
 
----
+    <h2>Education</h2>
+    <ul>
+        <li>Guru Nanak Institution Technical Campus</li>
+        <ul>
+            <li>B-Tech, Computer Science Engineering in AIML</li>
+            <li>2022 - Ongoing</li>
+            <li class="percentage">Percentage: 87%</li>
+        </ul>
+        <li>Rishi Junior College</li>
+        <ul>
+            <li>Intermediate</li>
+            <li>2020 - 2022</li>
+            <li class="percentage">Percentage: 98.1%</li>
+        </ul>
+        <li>Mount Basil High School</li>
+        <ul>
+            <li>10th Class</li>
+            <li>2020</li>
+            <li class="percentage">Percentage: 85.4%</li>
+        </ul>
+    </ul>
 
-## 🎓 Education
-
-### Guru Nanak Institution Technical Campus
-**B-Tech, Computer Science Engineering in AIML**  
-*2022 - Ongoing*  
-- **Percentage**: <span style="color: #2ecc71;">87%</span>
-
-### Rishi Junior College
-**Intermediate**  
-*2020 - 2022*  
-- **Percentage**: <span style="color: #2ecc71;">98.1%</span>
-
-### Mount Basil High School
-**10th Class**  
-*2020*  
-- **Percentage**: <span style="color: #2ecc71;">85.4%</span>
-
----
-
-## 🚀 Projects
-
-### <span style="color: #3498db;">Twitter Sentiment Analysis</span>
-*Python, Pandas, Scikit-learn, Streamlit, NLTK | [Live Demo](#)*  
-- Engineered a machine learning model to predict tweet sentiment as positive or negative using NLP techniques.  
-- Performed feature engineering with Lemmatization and TF-IDF.  
-- Utilized the Sentiment140 dataset (1.6M tweets) with Logistic Regression, SVM, and Naive Bayes algorithms.  
-- Deployed on Streamlit for real-time sentiment analysis.
-
-### <span style="color: #3498db;">Disease Prediction Model</span>
-*Python, XGBoost, Streamlit, SHAP, Pandas | [Live Demo](#)*  
-- Designed a system to assess risks for Asthma, Cancer, Diabetes, and Stroke using symptom and health metric inputs.  
-- Trained XGBoost models on cleaned Kaggle datasets with customized features and binary classification.  
-- Integrated SHAP for AI-driven explanations and feature importance visualization.  
-- Built an interactive Streamlit app for personalized risk assessments.
-
-### <span style="color: #3498db;">English to Hindi Language Translator</span>
-*Python, Hugging Face Transformers, Streamlit | [Live Demo](#)*  
-- Developed a real-time web app for English-to-Hindi neural machine translation.  
-- Integrated Helsinki-NLP/opus-mt-en-hi model via Hugging Face Transformers.  
-- Designed a responsive Streamlit frontend for dynamic interaction.  
-- Handled sequence-to-sequence translation with MarianMTModel and MarianTokenizer.
-
----
-
-## 🛠️ Technical Skills
-
-- **Languages**: <span style="color: #e74c3c;">Java, Python, C, JavaScript, HTML, CSS, Bash</span>  
-- **Frameworks**: <span style="color: #e74c3c;">Node.js, Express, Flask, Streamlit</span>  
-- **Databases**: <span style="color: #e74c3c;">MySQL, MongoDB</span>  
-- **Developer Tools**: <span style="color: #e74c3c;">Git, VS Code, IntelliJ</span>  
-- **Libraries**: <span style="color: #e74c3c;">Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, NLTK, spaCy, BeautifulSoup</span>
-
----
-
-## 📜 Certifications
-
-- **Machine Learning Specialization**  
-  *Coursera | 2025*  
-- **Programming in JAVA**  
-  *NPTEL | 2024*  
-- **Pandas**  
-  *Kaggle | 2024*  
-- **Python**  
-  *Kaggle | 2024*
-
----
-
-## 🏆 Achievements
-
-- <span style="color: #f1c40f;">Received appreciation from college</span> for developing the Question Paper Generator web application, streamlining question paper creation based on Bloom's Taxonomy levels.
+    <h2>Projects</h2>
+    <ul>
+        <li>Twitter Sentiment Analysis | Python, Pandas, Scikit-learn, Streamlit, NLTK | <a href="#">Live Demo</a></li>
+        <li>Disease Prediction Model | Python, XGBoost, Streamlit, SHAP, Pandas | <a href="#">Live Demo</a></li>
+        <li>English to Hindi Language Translator | Python, Hugging Face Transformers, Streamlit | <a href="#">Live Demo</a></li>
+    </ul>
+</body>
+</html>
