@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Avinash Reddy M - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Avinash Reddy M Portfolio" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+  <style>
+    :root {
+      --primary: #1464e8;
+      --text: #262626;
+      --section: #f8f9fa;
+    }
+    body {
+      background: #fff;
+      color: var(--text);
+      font-family: 'Roboto', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 820px;
+      margin: 40px auto 40px auto;
+      background: white;
+      padding: 32px 25px 32px 25px;
+      border-radius: 13px;
+      box-shadow: 0 4px 32px 0 rgba(0,0,0,0.07);
+    }
+    h1 {
+      font-size: 2.1rem;
+      font-weight: 700;
+      margin-bottom: 0;
+      letter-spacing: 2px;
+    }
+    .contact {
+      margin-top: 6px;
+      font-size: 1.03rem;
+    }
+    .contact a {
+      color: var(--primary);
+      text-decoration: underline;
+      margin-right: 11px;
+      word-break: break-all;
+    }
+    .section {
+      margin-top: 36px;
+    }
+    h2 {
+      border-bottom: 1.5px solid var(--primary);
+      display: inline-block;
+      font-size: 1.2rem;
+      font-weight: 700;
+      text-transform:uppercase;
+      margin: 0 0 12px 0;
+      letter-spacing:1.4px;
+      background: var(--section);
+      padding: 2px 17px 2px 4px;
+    }
+    .edu-list, .proj-list, .skills-list, .cert-list, .achieve-list {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    .edu-item, .proj-item, .cert-item, .achieve-item {
+      margin-bottom: 15px;
+      padding-bottom: 6px;
+    }
+    .edu-title {
+      font-weight: 500;
+      font-size: 1.05rem;
+      color: var(--primary);
+    }
+    .edu-details, .cert-details {
+      font-size: 0.98rem;
+      color: #555;
+    }
+    .edu-date, .proj-date, .cert-date {
+      float: right;
+      font-size: 0.94rem;
+      color: #666;
+      font-style: italic;
+      font-weight:400;
+    }
+    .proj-title {
+      font-weight: 500;
+      font-size: 1.05rem;
+    }
+    .proj-stack {
+      color: #00509e;
+      font-size: 0.94rem;
+    }
+    .proj-link {
+      font-size: 0.97rem;
+      margin-left: 6px;
+    }
+    .proj-link a {
+      color: var(--primary);
+      text-decoration: underline;
+      font-weight: 500;
+    }
+    .proj-desc {
+      margin: 6px 0 0 0;
+      font-size: 0.97rem;
+    }
+    .proj-points {
+      margin: 0 0 0 16px;
+    }
+    .proj-points li {
+      list-style-type: disc;
+      margin-bottom: 2px;
+      font-size: 0.97rem;
+    }
+    .skills-content {
+      background:#f5f8fd;
+      padding:12px 20px;
+      border-radius:8px;
+      margin: 5px 0 9px 0;
+      font-size:1.01rem;
+      color: #1d3a5d;
+    }
+    .cert-item a {
+      color: var(--primary);
+      text-decoration: underline;
+      font-weight: 500;
+      font-size:1.02rem;
+    }
+    @media only screen and (max-width: 700px) {
+      .container {
+        padding: 13px 3vw 28px 3vw;
+      }
+      h1 { font-size: 1.35rem;}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Heading/Contact -->
+    <h1>AVINASH REDDY M</h1>
+    <div class="contact">
+      <a href="mailto:malluavinashreddy7@gmail.com" target="_blank">malluavinashreddy7@gmail.com</a> |
+      <a href="https://leetcode.com/u/Avinash_M25/" target="_blank">Leetcode</a> |
+      <a href="https://www.linkedin.com/in/m-avinash-reddy-b33335261" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/Avinash00725" target="_blank">GitHub</a>
+    </div>
+
+    <!-- Education -->
+    <div class="section" id="education">
+      <h2>Education</h2>
+      <ul class="edu-list">
+        <li class="edu-item">
+          <span class="edu-title">Guru Nanak Institution Technical Campus</span>
+          <span class="edu-date">2022 – Ongoing</span><br/>
+          <span class="edu-details">B-Tech, Computer Science Engineering in AIML<br>Percentage: 87</span>
+        </li>
+        <li class="edu-item">
+          <span class="edu-title">Rishi Junior College</span>
+          <span class="edu-date">2020 – 2022</span><br/>
+          <span class="edu-details">Intermediate<br>Percentage: 98.1</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Projects -->
+    <div class="section" id="projects">
+      <h2>Projects</h2>
+      <ul class="proj-list">
+
+        <li class="proj-item">
+          <div>
+            <span class="proj-title">Twitter Sentiment Analysis</span> 
+            <span class="proj-link"><a href="https://twittersentimentanalysis09.streamlit.app/" target="_blank">Live Demo</a></span>
+          </div>
+          <div class="proj-stack">Python, Pandas, Scikit-learn, Streamlit, NLTK</div>
+          <ul class="proj-points">
+            <li>Engineered a machine learning model to predict tweet sentiment as positive or negative using NLP techniques.</li>
+            <li>Performed feature engineering using Lemmatization and TF-IDF.</li>
+            <li>Utilized the Sentiment140 dataset (1.6M tweets) and applied Logistic Regression, SVM, and Naive Bayes algorithms.</li>
+            <li>Deployed the solution on Streamlit to support real-time sentiment analysis.</li>
+          </ul>
+        </li>
+
+        <li class="proj-item">
+          <div>
+            <span class="proj-title">Disease Prediction Model</span>
+            <span class="proj-link"><a href="https://diseaseprediction-oq3r.onrender.com/" target="_blank">Live Demo</a></span>
+          </div>
+          <div class="proj-stack">Python, XGBoost, Streamlit, SHAP, Pandas</div>
+          <ul class="proj-points">
+            <li>Developed and deployed a Streamlit app to predict risks of Asthma, Cancer, Diabetes, and Stroke from user inputs.</li>
+            <li>Used XGBoost for disease-specific binary classification models trained on curated Kaggle datasets.</li>
+            <li>Integrated SHAP for AI-driven interpretability and feature importance visualization.</li>
+          </ul>
+        </li>
+        <li class="proj-item">
+          <div>
+            <span class="proj-title">OLX Car Cover Scraper</span>
+          </div>
+          <div class="proj-stack">Python, Selenium, Webdriver-Manager, JSON</div>
+          <ul class="proj-points">
+            <li>Developed a web scraper using Selenium to collect car cover listings from OLX's search page for cars.</li>
+            <li>Extracted data such as title and cost from each listing and stored it in a structured JSON file.</li>
+            <li>Implemented cross-platform compatibility with WebDriver Manager and made the script environment-independent.</li>
+            <li>Generated output file car_cover_listings.json for downstream analysis or visualization.</li>
+          </ul>
+        </li>
+        <li class="proj-item">
+          <div>
+            <span class="proj-title">CricketShell</span>
+          </div>
+          <div class="proj-stack">Java, File I/O</div>
+          <ul class="proj-points">
+            <li>Designed a fully functional command-line shell in Java using cricket-inspired commands to perform standard shell operations.</li>
+            <li>Implemented commands like <strong>field</strong> (ls), <strong>walk</strong> (cd), <strong>duck</strong> (delete), <strong>bowl</strong> (run command), and <strong>scorecard</strong> (view history).</li>
+            <li>Included support for aliases, variables, script file execution (<code>replay</code>), and memory usage visualization.</li>
+            <li>Combined fun with functionality to offer a unique experience for command-line users and cricket fans.</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Technical Skills -->
+    <div class="section" id="skills">
+      <h2>Technical Skills</h2>
+      <div class="skills-content">
+        <b>Languages:</b> Java, Python, C, JavaScript, HTML, CSS, Bash<br/>
+        <b>Frameworks:</b> Node.js, Flask, Streamlit<br/>
+        <b>Databases:</b> MySQL, MongoDB<br/>
+        <b>Developer Tools:</b> Git, Github, VS Code<br/>
+        <b>Libraries:</b> Pandas, NumPy, Matplotlib, Scikit-learn, NLTK, BeautifulSoup
+      </div>
+    </div>
+
+    <!-- Certifications -->
+    <div class="section" id="certifications">
+      <h2>Certifications</h2>
+      <ul class="cert-list">
+        <li class="cert-item"><a href="https://coursera.org/share/fb7fc4f5be1a65ae7a86dcfb6cd2cc11" target="_blank">Machine Learning Specialization</a> <span class="cert-date">Coursera | 2025</span></li>
+        <li class="cert-item"><a href="https://drive.google.com/file/d/1zhVWIRydhDQVsoYevi86Kiy2D-wopzWM/view?usp=sharing" target="_blank">Programming in JAVA</a> <span class="cert-date">NPTEL | 2024</span></li>
+        <li class="cert-item"><a href="https://www.kaggle.com/learn/certification/avinashreddym/pandas" target="_blank">Pandas</a> <span class="cert-date">Kaggle | 2024</span></li>
+        <li class="cert-item"><a href="https://www.kaggle.com/learn/certification/avinashreddym/python" target="_blank">Python</a> <span class="cert-date">Kaggle | 2024</span></li>
+        <li class="cert-item"><a href="https://www.hackerrank.com/certificates/b0a146beb080" target="_blank">SQL (Intermediate)</a> <span class="cert-date">HackerRank | 2024</span></li>
+      </ul>
+    </div>
+
+    <!-- Achievements -->
+    <div class="section" id="achievements">
+      <h2>Achievements</h2>
+      <ul class="achieve-list">
+        <li class="achieve-item">
+          Received appreciation from the college for developing the <b>Question Paper Generator</b> web application, which streamlined the process of generating question papers based on Bloom’s Taxonomy levels.
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
